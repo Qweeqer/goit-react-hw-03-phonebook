@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+button {
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    border: rgba(114, 123, 206, 0.5);
+    font-size: 12px;
+    background-color: rgba(114, 123, 206, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+
+    transition: transform 100ms linear,
+    background-color 100ms linear,
+    box-shadow 100ms linear,
+    color 100ms linear;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: blue;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+            -23px 0 20px -23px rgba(0, 0, 0, .6),
+            23px 0 20px -23px rgba(0, 0, 0, .6),
+            inset 0 0 40px rgba(0, 0, 0, .1);
+    border: 0px solid blue;
+    color: #ffffff;
+}
